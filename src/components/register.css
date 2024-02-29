@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    transition: all 0.5s;
+}
+body {
+    background: linear-gradient(0.25turn,rgb(52, 7, 110), rgb(8, 8, 119), rgb(52, 7, 110), rgb(8, 8, 119));
+}
+.container {
+    padding: 20px 40px 40px;
+    width: 400px;
+    margin: 120px auto 0;
+    border-radius: 15px;
+    background:black;
+    box-shadow: 0 0 20px rgba(0, 0, 014);
+}
+h1 {
+    color: #FFD700;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.box {
+    position: relative;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+input {
+    background-color: rgb(39, 39, 39);
+    border: none;
+    outline: none;
+    color: #FFD700;
+    margin-left: 15px;
+}
+::placeholder {
+    color: #FFD700;
+}
+button {
+    margin-left: 235px;
+    padding: 8px 20px;
+    border: 1px solid #FFD700;
+    border-radius: 10px;
+    background-color: rgb(39, 39, 39);
+    color: #FFD700;
+    cursor: pointer;
+    margin-top: -30px;
+}
+button:active {
+    background-color: #FFD700;
+    color: #000;
+    transition: all 0.1s;
+}
+
+.user {
+    color: #FFD700;
+    margin-bottom:-2px;
+}
+.box p {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    color: red;
+    font-size: 10px;
+}
+.loading {
+    color: rgb(255, 0, 0);
+    margin-top: 3px;
+}

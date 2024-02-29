@@ -1,0 +1,52 @@
+.dialog {
+    border: 2px solid #FFD700;
+}
+
+.title {
+    background-color: black;
+    color: #FFD700;
+}
+.information {
+    background-color: black; 
+    color: #FFD700;
+    outline: none;
+}
+.para p {
+    color: #FFD700;
+}
+.footer {
+    outline: none;
+    background-color: black;
+    color: #FFD700;
+}
+.btn span {
+    color: #FFD700;
+}
+.btn span:hover {
+    text-shadow: 3px 3px 5px #FFD700;
+}
+.table {
+    outline: none;
+    color: #FFD700;
+}
+.card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 00.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    margin-top: 100px;
+}
+.head {
+    background-color: black;
+}
+.head-title span{
+    color: #FFD700;
+}
+.th-table {
+    background-color: black;
+}
+.th-table span {
+    color: #FFD700;
+}
+.mui-icon {
+    color: #FFD700;
+    cursor: pointer;
+}
